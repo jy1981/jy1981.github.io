@@ -1,0 +1,17 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "es6",
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"allowJs": false,
+		"watch": true,
+		"lib": ["dom", "es2017"],
+		"pretty": true,
+		"noImplicitUseStrict": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}
